@@ -1,1 +1,124 @@
-Hello World
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>EventsFun</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/index.css">
+    </head>
+    <body>
+
+    <div class="container">
+        <!-- Start Jumbotron Tag -->
+        <!-- Navigation Bar -->
+      <div class="jumbotron index-header">
+        <div class="row">
+            <h4 class="masthread-brand col-xs-9">
+                <a href="index.html">
+                    <div class="index-brand" style="color:white; font-size:20px; font-style:italic; font-weight:bold">
+                        EventsFun
+                    </div>
+                </a>
+            </h4>
+            <nav>
+          <ul class="nav masthead-nav">
+            <li class="col-xs-1">
+                <a href="sign_up.html">
+                    <div class="index-navi">
+                        Sign Up
+                    </div>
+                </a>
+            </li>
+            <li class="col-xs-1 navi">
+                <a href="sign_in.html">
+                    <div class="index-navi">
+                        Sign In
+                    </div>
+                </a>
+            </li>
+            <li class="col-xs-1">
+                <a class="navi" href="#">
+                    <div class="index-navi">
+                        Help
+                    </div>
+                </a>
+            </li>
+          </ul>
+        </nav>
+        </div>
+
+        <!-- Center Text-->
+        <div class="logan">
+            <h1>Find a Nearby Event</h1>
+            <h4 class="small">
+                <p>Find, create and manage events nearby</p>
+                <p>Meet nearby persons that share the same interest</o>
+            </h4>
+          </div>
+
+          <!-- Searching Engine-->
+
+          <form class="form-inline">
+
+                <div class="input-group col-xs-3 col-xs-offset-2">
+                    <input type="text" class="form-control" placeholder="Search for events or categories">
+                </div>
+
+                <div class="input-group col-xs-2">
+                    <input type="text" class="form-control" placeholder="Evanston, IL">
+                </div>
+
+                <div class="input-group col-xs-2">
+                    <input type="text" class="form-control" placeholder="02/29/2016">
+                </div>
+                <div class="input-group col-xs-1">
+                    <input type = "button"class="btn btn-default search" onclick="jump()" value = "Search">
+                    </input>
+                </div>
+          </form>
+
+
+
+      </div>
+      <!-- End Jumbotron Tag -->
+
+      <!-- Start Category Part -->
+      <div class="category">
+          <div class="row">
+                  <button type="button" class="btn btn-default long_button division" id="music" onclick="jump()">
+                    Music
+                  </button>
+                  <button type="button" class="btn btn-default short_button division" id ="food" onclick="jump()">
+                    Food & Drink
+                  </button>
+          </div>
+
+          <div class="row">
+              <button type="button" class="btn btn-default short_button division" id="lecture" onclick="jump()">
+                Lecture
+              </button>
+              <button type="button" class="btn btn-default long_button division" id="party" onclick="jump()">
+                Party
+              </button>
+          </div>
+
+          <div class="row">
+            <button type="button" class="btn btn-default long_button division" id="network" onclick="jump()">
+                Networking
+            </button>
+              <button type="button" class="btn btn-default short_button division" id="healthy" onclick="jump()">
+                Healthy
+              </button>
+          </div>
+        </div>
+
+
+    </div>
+
+    </body>
+    <script src="../js/index.js"></script>
+    <script src="../bootstrap/js/jquery-2.2.1.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+</html>
+
