@@ -1,0 +1,53 @@
+.uploarder{
+    border-style: solid;
+    width: 220px;
+    height: 220px;
+    margin-left: 20px;
+}
+
+.inline{
+    margin-left: 10px;
+    margin-top: 10px;
+    border-style: dashed;
+    width: 190px;
+    height: 190px;
+}
+
+.inlinetext{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.glyphicon-user{
+    margin-left: 65px;
+    margin-top:20px;
+}
+
+.name{
+    margin-top: 20px;
+}
+
+.input_blank{
+    width: 160px;
+    height: 40px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.input_blank2{
+    width: 530px;
+    height: 200px;
+    padding-bottom: 180px;
+    margin-bottom: 25px;
+    margin-top: 3px;
+    margin-left: 0px;
+}
+
+.label2{
+    margin-left: 25px;
+}
+
+.label{
+    color: #333;
+}
+

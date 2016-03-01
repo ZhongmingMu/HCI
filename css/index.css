@@ -1,0 +1,147 @@
+.container
+{ 
+	width:100%;
+}
+
+.masthead-nav > li {
+  display: inline-block;
+}
+
+
+.index-navi
+{ 
+  font-size: 16px;
+  font-weight: lighter;
+  color:white;
+}
+.index-brand
+{
+  font-size: 18px;
+}
+
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
+  color: rgba(0,0,0,.75);
+  border-bottom: 2px solid transparent;
+}
+
+.masthead-nav > li > a:hover,
+
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(0,0,0,.25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+.logan
+{	
+  color:white;
+  margin-left: auto;
+  margin-right: auto;
+  width:700px;
+	padding-top: 50px;
+  padding-bottom: 50px;
+
+	text-align: center
+}
+
+.index-header
+{
+  padding-top: 0px;
+  height:500px;
+  background-image: url("../image/index/index-background.jpg");
+  background-color: rgba(0,0,0,0.3);
+  background-blend-mode: multiply;
+}
+
+.long_button
+{
+  padding-left:15px;
+  padding-right:15px;
+  width: 550px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin: 15px;
+  height: 250px;
+}
+.short_button
+{
+  width:400px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin: 15px;
+  height:250px;
+}
+.category
+{ 
+  
+  width: 1010px;
+  margin-top: 100px;
+  margin-bottom:100px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.division
+{ 
+  font-size: 30px;
+  background-size: 100%;
+  color:white;
+}
+.division:hover
+{
+  font-size:40px;
+  color:white
+}
+
+.search
+{ 
+  height:35px;
+  width:100px;
+  background-color: #1a75ff;
+  color:white;
+  font-size:16px;
+}
+.search:hover
+{
+  background-color:#0066ff;
+  color:white;
+  font-size:17px;
+
+}
+#lecture
+{ 
+
+  background-image:url("../image/index/lecture.jpg");
+}
+#music
+{ 
+
+  background-image:url("../image/index/music.jpg");
+}
+#food
+{ 
+  background-image:url("../image/index/food.jpg");
+}
+#party
+{
+  background-image:url("../image/index/party.jpg");
+}
+#network
+{
+  background-image:url("../image/index/network.jpg");
+}
+#healthy
+{
+  background-image:url("../image/index/healthy.jpg");
+}

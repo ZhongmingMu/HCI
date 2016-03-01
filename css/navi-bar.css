@@ -1,0 +1,65 @@
+.self-navibar
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.navi-button
+{	
+	border:0px;
+  height:30px;
+}
+.navi-button:hover
+{	
+	font-size: 14px;
+	background-color: white;
+}
+.create-button
+{	
+	font-size: 14px;
+	color:white;
+	background-color: #3385ff;
+}
+.create-button:hover
+{	
+	color:#f2f2f2;
+	background-color: #3385ff;
+}
+.brand-button
+{	
+	font-weight: bold;
+	font-style: italic;
+	font-size:18px;
+	color:#ff6600;
+}
+
+.search-button
+{	
+	border:0px;
+	background-color: #3385ff;
+	color:white;
+	height:25px;
+}
+
+
+/* tail bar */
+.tail-bar
+{
+	background-color: #4d4d4d;
+	color:#f2f2f2;
+}
+.common-col
+{
+	text-align: center;
+}
+.tail-text
+{	
+	margin-top: 5px;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.tail-title
+{
+	font-size:18px;
+	font-weight: bold;
+}
