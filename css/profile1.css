@@ -1,0 +1,95 @@
+.jumbotron{
+    padding-top: 0px;
+    height:50px;
+}
+
+
+.masthead-nav > li {
+  display: inline-block;
+}
+
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
+  color: rgba(0,0,0,.75);
+  border-bottom: 2px solid transparent;
+}
+
+.masthead-nav > li > a:hover,
+
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(0,0,0,.25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+.btn1{
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+}
+.label2{
+    margin-left: 25px;
+}
+
+.save{
+    margin-left: 15px;
+}
+
+.uploarder{
+    border-style: solid;
+    width: 250px;
+    height: 250px;
+    margin-left: 20px;
+}
+
+.inline{
+    margin-left: 10px;
+    margin-top: 10px;
+    border-style: dashed;
+    width: 220px;
+    height: 220px;
+}
+
+.inlinetext{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.input_blank{
+    width: 160px;
+    height: 40px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.input_blank2{
+    width: 390px;
+    height: 40px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.footer{
+    margin-bottom: 80px;
+}
+
+.label{
+    color: #333;
+}
+.glyphicon-user{
+    margin-left: 75px;
+    margin-top:20px;
+}
